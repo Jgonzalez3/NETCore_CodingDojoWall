@@ -1,0 +1,10 @@
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\bin\Debug\netcoreapp2.0\Wall.deps.json
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\bin\Debug\netcoreapp2.0\Wall.runtimeconfig.json
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\bin\Debug\netcoreapp2.0\Wall.runtimeconfig.dev.json
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\bin\Debug\netcoreapp2.0\Wall.dll
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\bin\Debug\netcoreapp2.0\Wall.pdb
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\obj\Debug\netcoreapp2.0\Wall.csproj.CoreCompileInputs.cache
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\obj\Debug\netcoreapp2.0\Wall.AssemblyInfoInputs.cache
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\obj\Debug\netcoreapp2.0\Wall.AssemblyInfo.cs
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\obj\Debug\netcoreapp2.0\Wall.dll
+C:\Users\Javier Gonzalez\Documents\CodingDojo\Bootcamp\C#\NetCoreIntermediateAssignments\Wall\obj\Debug\netcoreapp2.0\Wall.pdb

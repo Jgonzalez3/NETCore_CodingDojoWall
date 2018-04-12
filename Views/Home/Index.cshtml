@@ -1,0 +1,68 @@
+﻿@model Wall.Models.Users
+<nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Wall</a>
+            </div>
+        </div>
+</nav>
+
+<div>
+    <h1>Register</h1>
+    <form action="/register" method="POST">
+        <div class="row">
+            <div class="col">
+                <p>First Name: <input type="text" name="FirstName"><span asp-validation-for="FirstName"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Last Name: <input type="text" name="LastName"><span asp-validation-for="LastName"></span></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <p>Email: <input type="email" name="Email"><span asp-validation-for="Email"></span><span>@TempData["emailinuse"]</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Password: <input type="password" name="Password"><span asp-validation-for="Password"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Password Confirmation: <input type="password" name="passwordconfirm"><span asp-validation-for="PasswordConfirm"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</div>
+
+<div>
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+        <div class="row">
+            <div class="col">
+                <p>Email: <input type="email" name="Email"><span asp-validation-for="Email"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Password: <input type="password" name="Password"><span asp-validation-for="Password"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit">Login</button>
+        </div>
+    </form>
+</div>
