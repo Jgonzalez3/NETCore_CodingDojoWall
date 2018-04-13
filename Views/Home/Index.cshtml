@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Wall</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">CodingDojo Wall</a>
             </div>
         </div>
 </nav>
@@ -18,32 +18,32 @@
     <form action="/register" method="POST">
         <div class="row">
             <div class="col">
-                <p>First Name: <input type="text" name="FirstName"><span asp-validation-for="FirstName"></span></p>
+                <p>First Name: <input class="form-control" style="min-width: 100%" type="text" name="FirstName"><span asp-validation-for="FirstName"></span></p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Last Name: <input type="text" name="LastName"><span asp-validation-for="LastName"></span></p>
+                <p>Last Name: <input class="form-control" style="min-width: 100%" type="text" name="LastName"><span asp-validation-for="LastName"></span></p>
             </div>
         </div>
         
         <div class="row">
             <div class="col">
-                <p>Email: <input type="email" name="Email"><span asp-validation-for="Email"></span><span>@TempData["emailinuse"]</span></p>
+                <p>Email: <input class="form-control" style="min-width: 100%" type="email" name="Email"><span asp-validation-for="Email"></span><span>@TempData["emailinuse"]</span></p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Password: <input type="password" name="Password"><span asp-validation-for="Password"></span></p>
+                <p>Password: <input class="form-control" style="min-width: 100%" type="password" name="Password"><span asp-validation-for="Password"></span></p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Password Confirmation: <input type="password" name="passwordconfirm"><span asp-validation-for="PasswordConfirm"></span></p>
+                <p>Password Confirmation: <input class="form-control" style="min-width: 100%" type="password" name="passwordconfirm"><span asp-validation-for="PasswordConfirm"></span></p>
             </div>
         </div>
         <div class="row">
-            <button type="submit">Register</button>
+            <button class="btn-primary" type="submit">Register</button>
         </div>
     </form>
 </div>
@@ -53,16 +53,16 @@
     <form action="/login" method="POST">
         <div class="row">
             <div class="col">
-                <p>Email: <input type="email" name="Email"><span asp-validation-for="Email"></span></p>
+                <p>Email: <input class="form-control" style="min-width: 100%" type="email" name="Email"><span asp-validation-for="Email"></span></p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Password: <input type="password" name="Password"><span asp-validation-for="Password"></span></p>
+                <p>Password: <input class="form-control" style="min-width: 100%" type="password" name="Password"><span asp-validation-for="Password"></span></p>
             </div>
         </div>
         <div class="row">
-            <button type="submit">Login</button>
+            <button class="btn-primary" type="submit">Login</button>
         </div>
     </form>
 </div>
